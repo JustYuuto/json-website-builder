@@ -1,0 +1,19 @@
+{
+  "name": "json-website-builder",
+  "version": "1.0.0",
+  "description": "A library to create HTML pages with only JSON",
+  "main": "lib/index.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "serve": "nodemon example/server.js"
+  },
+  "repository": {
+    "url": "https://github.com/NetherMCtv/json-website-builder.git"
+  },
+  "author": "NetherMC",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
