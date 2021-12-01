@@ -1,2 +1,6 @@
 /.idea/
+/.vscode/
 /example/
+
+*-log.log*
+*-error.log*
