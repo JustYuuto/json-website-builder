@@ -8,7 +8,7 @@ const server = express();
 const port = 3000;
 
 server.get('/', (req, res) => {
-    const html = new JSONWebsiteBuilder(require('./website.json'));
+    const html = JSONWebsiteBuilder.build(require('./website.json'));
     res.send(html);
 });
 
