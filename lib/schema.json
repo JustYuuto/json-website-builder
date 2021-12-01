@@ -1,0 +1,9 @@
+{
+  "title": "Schema",
+  "description": "no",
+  "type": "array",
+  "items": {
+    "tags": "array"
+  },
+  "required": [ "productId" ]
+}
