@@ -6,7 +6,16 @@
       "dir": "ltr"
     },
     [
-      "body"
+      "body",
+      {
+        "class": "no-js"
+      },
+      [
+        "img",
+        {
+          "src": ""
+        }
+      ]
     ]
   ]
 ]
