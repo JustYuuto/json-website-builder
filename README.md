@@ -20,3 +20,9 @@ First, you need to create a JSON file (its name doesn't matter). The content of 
   ]
 ]
 ```
+
+* ``tag``: a HTML tag
+* ``attrs``: an object, where the key is the attr, and the value is the attr value
+* ``children``: can be a string with whatever you want, or this object
+
+> You can see an example [here](example/website.json).
